@@ -1,0 +1,54 @@
+// Top of Page styling
+
+.white-bar {
+  height: 20px;
+  background: $white;
+}
+
+.blue-bar {
+  height: 35px;
+  background: $primary-color;
+}
+
+.nav-bg {
+  padding-bottom: 10px;
+  background: $secondary-color;
+}
+
+.page-title {
+  font-weight: 400;
+}
+
+.top-title {
+  padding-top: 10px;
+  color: $white;
+  font-size: 24px;
+  font-family: "arialblack", Arial, "Calibri", "Helvetica Neue", "Helvetica", Helvetica, sans-serif !important;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+
+  @media #{$small-only} {
+    font-size: 18px;
+  }
+}
+
+.name img {
+  background-color: $secondary-color;
+}
+
+.susan-img-nav {
+  width: 80px;
+  position: absolute;
+  z-index: 9999;
+  margin-top: -5px;
+  left: 10%;
+
+  @media #{$large-up} {
+    display: none;
+  }
+}
+
+.top-bar {
+  @media #{$small-only} {
+  }
+}

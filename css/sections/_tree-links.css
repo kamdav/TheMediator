@@ -1,0 +1,92 @@
+.tree {
+  margin-bottom: 80px; }
+  .tree span {
+    font-size: 14px;
+    -webkit-text-decoration: italic;
+    text-decoration: italic; }
+  @media print {
+    .tree {
+      margin-bottom: -50px; } }
+
+.passion {
+  position: absolute;
+  margin-top: -145px;
+  margin-left: 360px; }
+  @media only screen and (max-width: 1200px) {
+    .passion {
+      margin-left: 29%; } }
+
+.trustworthiness {
+  position: absolute;
+  margin-top: -105px;
+  margin-left: 280px; }
+  @media only screen and (max-width: 1200px) {
+    .trustworthiness {
+      margin-left: 21%; } }
+
+.fairness {
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 350px; }
+  @media only screen and (max-width: 1200px) {
+    .fairness {
+      margin-left: 27%; } }
+
+.excellence {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 400px; }
+  @media only screen and (max-width: 1200px) {
+    .excellence {
+      margin-left: 33%; } }
+
+.courage {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 490px; }
+  @media only screen and (max-width: 1200px) {
+    .courage {
+      margin-left: 40%; } }
+
+.generosity {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 560px; }
+  @media only screen and (max-width: 1200px) {
+    .generosity {
+      margin-left: 47%; } }
+
+.accountability {
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 670px; }
+  @media only screen and (max-width: 1200px) {
+    .accountability {
+      margin-left: 56%; } }
+
+.creativity {
+  position: absolute;
+  margin-top: -55px;
+  margin-left: 730px; }
+  @media only screen and (max-width: 1200px) {
+    .creativity {
+      margin-left: 62%; } }
+
+.lifelong-learning {
+  position: absolute;
+  margin-top: -105px;
+  margin-left: 730px; }
+  @media only screen and (max-width: 1200px) {
+    .lifelong-learning {
+      margin-left: 62%; } }
+
+.medium-links {
+  margin-top: -200px; }
+
+.small-links {
+  margin-top: -200px;
+  font-size: 13px; }
+
+.small-links-3 {
+  margin-top: -140px;
+  font-size: 13px; }

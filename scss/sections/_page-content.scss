@@ -1,0 +1,693 @@
+// Page Content styling
+
+
+// Holding page
+.margin-top-holding {
+  margin-top: 240px;
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  h3 {
+    margin-bottom: 0;
+    color: $quaternary-color;
+  }
+}
+
+.holding-page {
+  background-color: $tertiary-color;
+}
+
+
+// Home page
+h4 {
+  color: $tertiary-color;
+}
+
+.getting-yes h2 {
+  @media #{$large-up} {
+    margin-left: -35px !important;
+  }
+}
+
+.content-text {
+  p, li {
+    color: $tertiary-color;
+    font-size: 13pt;
+  }
+}
+
+.susan-kaye-home {
+  @media #{$large-up} {
+    display: none;
+  }
+}
+
+.home-final {
+  text-align: justify;
+}
+
+.blue {
+  color: $secondary-color;
+  font-weight: 600;
+}
+
+.blue-2 {
+  color: $tertiary-color;
+  font-weight: 600;
+}
+
+.blue-3 {
+  font-size: 12pt; 
+  color: $secondary-color;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.content-text-2 {
+  color: $tertiary-color !important;
+  font-size: 13pt;
+  font-weight: 600 !important;
+  letter-spacing: 0.4px;
+}
+
+.content-text-3 {
+  margin-bottom: 0;
+  color: $secondary-color !important;
+  font-size: 13pt;
+  font-weight: 600 !important;
+  letter-spacing: 0.4px;
+}
+
+.red-link {
+  color: $tertiary-color;
+}
+
+h3 {
+  color: $tertiary-color;
+}
+
+.home-h4 h4 {
+  font-size: 18px;
+}
+
+.home-p p {
+  color: $tertiary-color;
+}
+
+.home-img {
+  margin-top: 0px;
+
+  @media #{$large-up} {
+    margin-top: 5px;
+  }
+}
+
+.susan-kaye-img {
+  margin-top: 25px;
+}
+
+.jigsaw-img img {
+  @media #{$small-only} {
+    width: 180px;
+  }
+}
+
+.jig-1 {
+  @media #{$large-up} {
+    padding-left: 120px;
+  }
+}
+
+.jig-2 {
+  @media #{$large-up} {
+    padding-right: 120px;
+  }
+}
+
+.i-big {
+  font-size: 8pt;
+  font-family: "arialblack", Arial, "Helvetica Neue", "Helvetica", Helvetica, sans-serif !important;
+  color: $tertiary-color;
+}
+
+.red-bullet-list {
+  clear: both;
+  padding: 0 30px;
+  list-style-type: none;
+  color: $secondary-color;
+  font-size: 13pt;
+  line-height: 1.3;
+  letter-spacing: 0.4px;
+
+  list-style-image: url("data:image/gif;base64,R0lGODlhBgAGAMQAAP//////AP8A//8AAAD//wD/AAAA/wAAAMAAAMQREcQSEttubttvb912dt13d/75+f///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABAALAAAAAAGAAYAAAUV4LMoyfIwSIo4ioooraqgaiMm5RMCADs=");
+
+  @media #{$small-only} {
+    padding: 0;
+  }
+
+  li {
+    margin: 10px 0;
+    padding: 0px 10px 0 10px;
+  }
+
+  h3 {
+    padding-left: 10px;
+    font-family: "Calibri", "arialblack", Arial, "Helvetica Neue", "Helvetica", Helvetica, sans-serif !important;
+  }
+}
+
+.red-bullet-list-2 {
+  clear: both;
+  padding: 0 30px;
+  list-style-type: none;
+  color: $secondary-color;
+  font-size: 13pt;
+  line-height: 1.3;
+  letter-spacing: 0.4px;
+
+  list-style-image: url("data:image/gif;base64,R0lGODlhBgAGAMQAAP//////AP8A//8AAAD//wD/AAAA/wAAAMAAAMQREcQSEttubttvb912dt13d/75+f///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABAALAAAAAAGAAYAAAUV4LMoyfIwSIo4ioooraqgaiMm5RMCADs=");
+
+  @media #{$small-only} {
+    padding: 0;
+  }
+
+  li {
+    margin: 3px 0;
+    padding: 0px 10px 0 10px;
+  }
+
+  h3 {
+    padding-left: 10px;
+    font-family: "Calibri", "arialblack", Arial, "Helvetica Neue", "Helvetica", Helvetica, sans-serif !important;
+  }
+}
+
+.red-bullet-list-3 {
+  clear: both;
+  padding: 0 30px;
+  list-style-type: none;
+  color: $secondary-color;
+  font-size: 13pt;
+  line-height: 1.3;
+  letter-spacing: 0.4px;
+
+  list-style-image: url("data:image/gif;base64,R0lGODlhBgAGAMQAAP//////AP8A//8AAAD//wD/AAAA/wAAAMAAAMQREcQSEttubttvb912dt13d/75+f///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABAALAAAAAAGAAYAAAUV4LMoyfIwSIo4ioooraqgaiMm5RMCADs=");
+
+  @media #{$small-only} {
+    padding: 0;
+  }
+
+  li {
+    margin: 0px 0;
+    padding: 0px 10px 0 10px;
+    text-decoration: underline;
+  }
+
+  a {
+    color: $secondary-color;
+  }
+
+  a:hover {
+    color: $tertiary-color;
+  }
+}
+
+.red-bullet-list-4 {
+  clear: both;
+  padding: 0 30px 0 80px;;
+  list-style-type: none;
+  color: black;
+  font-size: 13pt;
+  line-height: 1.3;
+  letter-spacing: 0.4px;
+
+  list-style-image: url("data:image/gif;base64,R0lGODlhBgAGAMQAAP//////AP8A//8AAAD//wD/AAAA/wAAAMAAAMQREcQSEttubttvb912dt13d/75+f///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABAALAAAAAAGAAYAAAUV4LMoyfIwSIo4ioooraqgaiMm5RMCADs=");
+
+  @media #{$small-only} {
+    padding: 0;
+  }
+
+  li {
+    margin: 0px 0;
+    padding: 0px 10px 0 10px;
+  }
+}
+
+.dash-space {
+  margin-left: -12px;
+  color: $quaternary-color;
+  font-family: "arialblack", Arial, "Helvetica Neue", "Helvetica", Helvetica, sans-serif !important;
+}
+
+.dash-text p {
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+.text-center-imp p {
+  text-align: center;
+}
+
+
+// Family Mediation – What is it?
+.mini-header-2 {
+  color: $tertiary-color;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.chair-meeting {
+  padding: 2px 10px 2px 2px
+}
+
+.b-and-u {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.first-p {
+  padding-top: 20px;
+}
+
+.light-blue {
+  color: #215868;
+  font-weight: 600;
+}
+
+.jig-3 {
+  @media #{$large-up} {
+    padding-left: 120px;
+    float: left !important;
+
+    img {
+      float: left;
+    }
+  }
+
+  @media #{$small-only}, #{$medium-only} {
+    text-align: center;
+  }
+}
+
+.jig-4 {
+  @media #{$large-up} {
+    padding-right: 120px;
+    float: right !important;
+
+    img {
+      float: right;
+    }
+  }
+
+  @media #{$small-only}, #{$medium-only} {
+    margin-top: 40px;
+    text-align: center;
+  }
+}
+
+
+// The Four Principles of Family Mediation
+.mini-head {
+  padding-right: 20px;
+  color: $tertiary-color;
+  font-size: 13pt;
+  font-family: "arialblack", Arial, "Helvetica Neue", "Helvetica", Helvetica, sans-serif !important;
+}
+
+.mini-header {
+  padding-right: 20px;
+  color: $tertiary-color;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.co-principle {
+  color: $tertiary-color;
+  padding-right: 20px;
+  font-weight: 600;
+}
+
+.principle-text-1 p {
+  padding: 20px 0 0 120px;
+}
+
+.principle-text-2 {
+  img {
+    padding-top: 0px;
+  }
+
+  p {
+    padding: 0 0 0 120px;
+  }
+}
+
+.principle-text-3 {
+
+  img {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
+
+  p:nth-child(2) {
+    padding: 10px 0 0 120px;
+  }
+
+  p:nth-child(3) {
+    padding: 0px 0 0 120px;
+  }
+}
+
+.principle-text-4 {
+  img {
+    padding-top: 10px;
+  }
+
+  p {
+    padding: 0 0 0 120px;
+  }
+}
+
+
+// Family Mediation & Children
+.conflict-quote {
+  font-size: 11pt;
+  color: $tertiary-color;
+  font-style: italic;
+  font-weight: 600;
+
+  @media #{$medium-only}, #{$small-only} {
+    text-align: center;
+  }
+}
+
+.youtube-p, .youtube-p a {
+  font-size: 9pt;
+}
+
+.child-hug-parents-img {
+  @media #{$small-only}, #{$medium-only} {
+    width: 200px;
+  }
+}
+
+
+// What are the issues concerning the children?
+.family-tree-image img {
+  width: 100%;
+}
+
+.img-right {
+  float: right;
+  margin-top: -55px;
+
+  @media #{$small-only} {
+    float: none;
+    margin-top: 0;
+  }
+
+  @media #{$large-up} {
+    margin-right: -40px;
+  }
+}
+
+.issues-list {
+  clear: both;
+}
+
+
+// Giving Children a Voice in Mediation - 10 yrs old and over
+.child-lean-img {
+  padding: 10px 10px 2px 2px;
+}
+
+.child-balloons {
+  padding: 10px 2px 2px 10px;
+}
+
+.speech-img {
+  padding: 2px 2px 2px 10px;
+
+  @media #{$large-up} {
+    padding: 2px 2px 2px 260px;
+  }
+}
+
+
+// Child Protection
+.child-pro-text {
+  @media #{$large-up} {
+    padding: 0;
+  }
+}
+
+.blue-link {
+  color: #0645AD;
+}
+
+
+// Civil & Commercial Mediation
+.people-groups-img {
+  padding: 2px 2px 2px 10px;
+
+  @media #{$large-up} {
+    margin-top: -30px;
+  }
+
+  @media #{$small-only} {
+    float: none;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+
+// The Mediator – Susan Kaye - Professional Bio
+.mini-h4 {
+  font-size: 15pt;
+  font-family: "Calibri", "arialblack", Arial, "Helvetica Neue", "Helvetica", Helvetica, sans-serif !important;
+  font-weight: 600;
+}
+
+.susan-kaye-profile {
+  img {
+    width: 187px;
+    padding: 2px 10px 2px 0px;
+  }
+
+  p {
+    padding-top: 10px;
+  }
+}
+
+.unjustified {
+  text-align-last: left;
+}
+
+.ffi-margin-top {
+  margin-top: 30px;
+}
+
+
+// FAQ
+.back-to-faq {
+  padding-bottom: 30px;
+}
+
+#back-top {
+  position: fixed;
+  bottom:20px;
+  right: 2%;
+  z-index: 100;
+
+  i::before {
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgba(white, .5);
+    outline: 2px solid $tertiary-color;
+  }
+}
+
+.thinking-img {
+  padding-left: 15px;
+
+  @media #{$large-up} {
+    margin-top: -20px;
+  }
+}
+
+.faq {
+  h4 {
+    font-size: 14pt;
+  }
+}
+
+.faq-category {
+  p {
+    margin-bottom: 0;
+    color: grey;
+  }
+}
+
+.court-quote {
+  margin-top: 50px;
+  font-style: italic;
+}
+
+.banham-hall {
+  color: $secondary-color;
+  font-size: 9pt;
+
+  a {
+    font-size: 10pt;
+  }
+}
+
+.extended-list li {
+  padding: 5px 2px;
+}
+
+.order-img {
+  padding: 5px 2px 2px 10px;
+}
+
+.padding-left-img {
+  padding: 0px 2px 2px 10px;
+
+  @media #{$large-up} {
+    margin-right: -35px;
+  }
+}
+
+.bolt-img {
+  padding: 2px 2px 2px 2px;
+
+  margin-right: -35px;
+
+  @media #{$small-only} {
+    margin-top: 8px;
+    margin-right: 0px;
+  }
+}
+
+.scissors-img {
+  padding: 2px 2px 2px 2px;
+
+  @media #{$large-up} {
+    margin-top: -10px;
+    padding-right: 90px;
+  }
+}
+
+.larger {
+  padding: 0 5px;
+  font-size: 15pt;
+}
+
+
+// Contact us
+.contact-margin {
+  margin-top: 40px;
+
+  @media #{$large-up} {
+    margin-top: 120px;
+  }
+}
+
+.address {
+  padding: 0 20px;
+
+  @media #{$large-up} {
+    padding: 0 20px 0 0px;
+  }
+}
+
+.address-p {
+  margin-bottom: 0;
+}
+
+.e-starter {
+  @media #{$medium-up} {
+    text-align: center;
+  }
+}
+
+.t-starter, .m-starter {
+  @media #{$large-up} {
+    padding-left: 262px;
+  }
+
+  @media #{$medium-only} {
+    text-align: center;
+  }
+}
+
+
+// Chrome adjustments only
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  .t-starter, .m-starter {
+    @media #{$large-up} {
+      padding-left: 274px;
+    }
+
+    @media #{$medium-only} {
+      text-align: center;
+    }
+  }
+}
+
+
+
+.address-starter-e {
+  padding-right: 35px;
+  font-family: "arialblack", Arial, "Helvetica Neue", "Helvetica", Helvetica, sans-serif !important;
+
+  @media #{$small-only} {
+    padding-right: 5px;
+  }
+}
+
+.address-starter-t {
+  padding-right: 35px;
+  font-family: "arialblack", Arial, "Helvetica Neue", "Helvetica", Helvetica, sans-serif !important;
+
+  @media #{$small-only} {
+    padding-right: 5px;
+  }
+}
+
+.address-starter-m {
+  padding-right: 31px;
+  font-family: "arialblack", Arial, "Helvetica Neue", "Helvetica", Helvetica, sans-serif !important;
+
+  @media #{$small-only} {
+    padding-right: 5px;
+  }
+}
+
+.address-starter-e-home, .address-starter-m-home, .address-starter-t-home  {
+  font-family: "arialblack", Arial, "Helvetica Neue", "Helvetica", Helvetica, sans-serif !important;
+  color: $secondary-color;
+}
+
+.contact-link-1, .contact-link-2 {
+  @media #{$small-only} {
+    text-align: center;
+    display: block;
+  }
+}
+
+.mobile-address {
+  @media #{$small-only} {
+    display: block;
+  }
+}
+
+.uk-address {
+  font-size: 9pt;
+}

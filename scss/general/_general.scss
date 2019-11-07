@@ -1,0 +1,179 @@
+// General styling
+
+body {
+  background: $white;
+}
+
+h1,h2,h3,h4,h5 {
+  color: $primary-color;
+  font-family: "arialblack", Arial, "Calibri", "Helvetica Neue", "Helvetica", Helvetica, sans-serif !important;
+}
+
+h2 {
+  font-size: 26pt;
+}
+
+h3 {
+  font-size: 16pt;
+}
+
+h5 {
+  font-size: 11pt;
+}
+
+p {
+  color: $secondary-color;
+  font-size: 13pt;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  text-align: justify;
+}
+
+a {
+  font-size: 13pt;
+
+  &:hover {
+    color: $tertiary-color;
+  }
+}
+
+.grey-link {
+  color: $secondary-color;
+  font-weight: 600;
+
+  &:hover {
+    color: $tertiary-color;
+  }
+}
+
+ul li {
+  list-style-type: none;
+}
+
+small {
+  font-size: 11px;
+  font-style: italic;
+}
+
+address {
+  color: $secondary-color;
+  font-style: normal;
+}
+
+
+// Margin spacing TOP and BOTTOM
+.margin-both {
+  margin: 10px 0;
+}
+
+.margin-both-large {
+  margin: 30px 0;
+}
+
+.margin-top {
+  margin-top: 15px;
+}
+
+.margin-top-small-only {
+  @media #{$small-only}, #{$medium-only} {
+    margin-top: 15px;
+  }
+}
+
+.margin-top-large {
+  margin-top: 30px;
+}
+
+.margin-top-extra-large {
+  margin-top: 40px;
+}
+
+.margin-top-small {
+  margin-top: 10px;
+}
+
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
+.margin-bottom-large {
+  margin-bottom: 30px;
+}
+
+.margin-bottom-extra-large {
+  margin-bottom: 60px;
+}
+
+
+.minus-margin-top {
+  margin-top: -10px;
+}
+
+.minus-margin-top-small {
+  margin-top: -5px;
+}
+
+.minus-margin-bottom {
+  margin-bottom: -10px;
+}
+
+.minus-margin-bottom-large {
+  margin-bottom: -20px;
+}
+
+
+.margin-left {
+  margin-left: 10px;
+}
+
+// Margin spacing SIDES
+.padding-sides {
+  @media #{$large-up} {
+    padding: 0 110px;
+  }
+}
+
+.padding-left {
+  @media #{$large-up} {
+    padding-left: 110px;
+  }
+}
+
+.padding-right {
+  @media #{$large-up} {
+    padding-right: 110px;
+  }
+}
+
+
+.bottom-logo-margin {
+  margin-top: 30px;
+}
+
+.bottom-logo-margin-large {
+  margin-top: 70px;
+}
+
+.link {
+  color: $secondary-color;
+  text-decoration: underline;
+
+  @media #{$small-only} {
+    font-size: 11pt;
+  }
+}
+
+.grey-link {
+  color: $secondary-color;
+  text-decoration: underline;
+}
+
+.centered-list {
+  display: inline-block;
+
+  li {
+    padding: 0 30px;
+  }
+}
+
